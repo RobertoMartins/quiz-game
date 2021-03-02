@@ -24,6 +24,16 @@ public class Answer {
 	@JoinColumn(name = "question")
 	@JsonBackReference
 	private Question question;
+	
+	private AnswerStatus status;
+
+	public AnswerStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(AnswerStatus status) {
+		this.status = status;
+	}
 
 	public String getContent() {
 		return content;
@@ -56,6 +66,7 @@ public class Answer {
 		result = prime * result + ((content == null) ? 0 : content.hashCode());
 		result = prime * result + ((idAnswer == null) ? 0 : idAnswer.hashCode());
 		result = prime * result + ((question == null) ? 0 : question.hashCode());
+		result = prime * result + ((status == null) ? 0 : status.hashCode());
 		return result;
 	}
 
@@ -83,8 +94,12 @@ public class Answer {
 				return false;
 		} else if (!question.equals(other.question))
 			return false;
+		if (status != other.status)
+			return false;
 		return true;
 	}
+
+	
 	
 
 }
