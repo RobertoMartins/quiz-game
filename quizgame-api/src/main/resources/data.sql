@@ -1,0 +1,15 @@
+INSERT INTO QUESTION (content) VALUES ('Pegunta 1');
+INSERT INTO QUESTION (content) VALUES ('Pegunta 2');
+INSERT INTO QUESTION (content) VALUES ('Pegunta 3');
+INSERT INTO ANSWER (content,question) VALUES ('Opção a',1);
+INSERT INTO ANSWER (content,question) VALUES ('Opção b',1);
+INSERT INTO ANSWER (content,question) VALUES ('Opção c',1);
+INSERT INTO ANSWER (content,question) VALUES ('Opção d',1);
+INSERT INTO ANSWER (content,question) VALUES ('Opção a',2);
+INSERT INTO ANSWER (content,question) VALUES ('Opção b',2);
+INSERT INTO ANSWER (content,question) VALUES ('Opção b',2);
+INSERT INTO ANSWER (content,question) VALUES ('Opção d',2);
+INSERT INTO ANSWER (content,question) VALUES ('Opção a',3);
+INSERT INTO ANSWER (content,question) VALUES ('Opção b',3);
+INSERT INTO ANSWER (content,question) VALUES ('Opção c',3);
+INSERT INTO ANSWER (content,question) VALUES ('Opção d',3);
