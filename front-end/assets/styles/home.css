@@ -1,0 +1,54 @@
+.text-home {
+    width: 45%;
+}
+
+.text-home spam {
+    color: #82498C;
+    font-size: 1.1rem;
+}
+
+.text-home .title-home {
+    color: #703E78;
+}
+
+.text-home .subtitle-home {
+    font-size: 1.2rem;
+    color: #6C7A81
+}
+
+.text-home .subtitle-home strong {
+    color: #82498C;
+    font-size: 1.1rem;
+}
+
+.button-home {
+    margin-top: 50px;
+}
+
+.button-home a {
+    background-color: #82498C;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.button-home a:hover {
+    background-color: #67396F;
+    color: #F8F8F8
+}
+
+.img-home {
+    width: 45%;
+}
+
+.img-home img {
+    width: 80%;
+}

@@ -1,0 +1,38 @@
+#question {
+    margin-bottom: 1.5rem;
+}
+
+.option-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(51, 8, 44, 0.25);
+    background-color: white;
+}
+
+.option-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.3rem 1rem #c8aace;
+    transform: translate(-0.1rem);
+    transition: transform 150ms;
+}
+
+.option-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #B787BF;
+    color: white;
+}
+
+.option-content {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
