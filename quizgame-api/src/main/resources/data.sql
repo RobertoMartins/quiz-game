@@ -6,7 +6,7 @@ INSERT INTO QUESTION (content) VALUES ('Qual a principal diferença entre CSS Gr
 INSERT INTO ANSWER (content,question,status) VALUES ('Map e Set são similares a Objects onde ambos deixam adicionar chaves para valores, recuperar estes valores, apagar chaves, e detectar quando algo foi adicionado em uma chave.',1,0);
 INSERT INTO ANSWER (content,question,status) VALUES ('Map são coleções ordenadas de pares chave-valor, e Set são coleções de valores únicos.',1,1);
 INSERT INTO ANSWER (content,question,status) VALUES ('Set são coleções ordenadas de pares chave-valor e Map, são coleções de valores únicos.',1,0);
-INSERT INTO ANSWER (content,question,status) VALUES ('Map e Set são bastante semelhanetes, inclusive, ambos aceitam valores dublicados',1,0);
+INSERT INTO ANSWER (content,question,status) VALUES ('Map e Set são bastante semelhantes, inclusive, ambos aceitam valores dublicados',1,0);
 INSERT INTO ANSWER (content,question,status) VALUES ('Um closure é uma função que perde a estrutura do ambiente — ou escopo léxico — em que ela foi criada',2,0);
 INSERT INTO ANSWER (content,question,status) VALUES ('Um closure é como uma função é conhecida quando o acesso ao escopo pai é perdido depois que a função pai foi fechada.',2,0);
 INSERT INTO ANSWER (content,question,status) VALUES ('Um closure é uma função que tem acesso ao escopo pai, somente enquanto a função pai está sendo executada.',2,0);
