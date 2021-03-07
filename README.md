@@ -24,7 +24,7 @@ A primeira coisa a se fazer, é baixar ou clonar o projeto em sua maquina.<br/>
 Para rodar o projeto é necessario executar as seguintes etapas:
 
 ### 1º- Executando o back-end
-<p>Para executar o backend é necessário possuir o <a href="https://maven.apache.org/">Maven</a> instalado. Ele vai facilitar na construção e execução do projeto SpringBoot, e irá baixar todas as dependencias necessaria em sua maquina.</p>
+<p>Para executar o backend é necessário possuir o <a href="https://maven.apache.org/">Maven</a> instalado. Ele vai facilitar na construção e execução do projeto SpringBoot, e irá baixar todas as dependencias necessarias em sua maquina.</p>
 
 <p>Com o Maven instalado, acesse o diretorio clonado em sua maquina, e abra o terminal(cmd, shell e etc.) nesse local.</p>
 Feito isso, digite o comando:
@@ -34,7 +34,7 @@ Feito isso, digite o comando:
   $ mvn spring-boot:run # para executar o projeto maven e iniciar o Spring.
 ```
 
-<p>Pronto, a api será iniciada, e ja pode ser acessada pelo fontend.</p>
+<p>Pronto, a api será iniciada, e ja pode ser acessada pelo frontend.</p>
 <p>Caso prefira,  o projeto também pode ser executado em uma IDE de sua preferência</p>
 
 ### 2º- Executando o front-end
