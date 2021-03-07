@@ -13,7 +13,8 @@
 <body onload="startGame();">
 
     <main class="box card">
-        <div class="content">
+        <div id="loader"></div>
+        <div id="game" class="content hidden">
             <div class="question">
                 <h2 id="question"></h2>
                 <div class="option-container">
@@ -50,7 +51,7 @@
                 <div class="modal-text">
                     <h2>Não foi dessa vez!</h2>
                     <p>Você errou uma questão do quiz e foi eliminado. Tente novamente.</p>
-                    <div class="modal-buttons">
+                    <div class="buttons">
                         <a href="questions.html" class="btn-again">Tentar novamente</a>
                         <a href="index.html" class="btn-close">Sair</a>
                     </div>

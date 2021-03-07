@@ -30,6 +30,53 @@ body {
     justify-content: space-between;
 }
 
+.buttons {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.btn-again {
+    background-color: #82498C;
+    display: flex;
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.btn-again:hover {
+    background-color: #67396F;
+    color: #F8F8F8
+}
+
+.btn-close {
+    display: flex;
+    width: 100px;
+    height: 44px;
+    border: 1px solid #BE6363;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #BE6363;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.btn-close:hover {
+    background-color: #F4B0B0;
+}
+
 footer {
     display: flex;
     align-items: center;

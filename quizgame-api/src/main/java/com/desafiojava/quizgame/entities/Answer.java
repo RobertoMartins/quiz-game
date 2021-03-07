@@ -17,7 +17,7 @@ public class Answer {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer idAnswer;
 
-	@Column(nullable = false)
+	@Column(nullable = false, length=512)
 	private String content;
 
 	@ManyToOne

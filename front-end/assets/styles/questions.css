@@ -25,6 +25,8 @@
 .option-prefix {
     padding: 1.5rem 2.5rem;
     background-color: #B787BF;
+    display: flex;
+    align-items: center;
     color: white;
 }
 
@@ -35,7 +37,7 @@
 
 .option-text {
     width: 100%;
-    padding: 1.2rem;
+    padding: 1rem;
     display: flex;
     font-size: 1.2rem;
     align-items: center;
@@ -87,53 +89,6 @@
     width: 70%;
 }
 
-.modal-buttons {
-    width: 100%;
-    display: flex;
-    margin-top: 20px;
-    justify-content: flex-start;
-}
-
-.btn-again {
-    background-color: #82498C;
-    display: flex;
-    width: 150px;
-    height: 45px;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 3px;
-    transition: 0.3s;
-}
-
-.btn-again:hover {
-    background-color: #67396F;
-    color: #F8F8F8
-}
-
-.btn-close {
-    display: flex;
-    width: 100px;
-    height: 44px;
-    border: 1px solid #BE6363;
-    margin-left: 10px;
-    align-items: center;
-    justify-content: center;
-    color: #BE6363;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 3px;
-    transition: 0.3s;
-}
-
-.btn-close:hover {
-    background-color: #F4B0B0;
-}
-
 @keyframes modal {
     from {
         opacity: 0;
@@ -145,8 +100,33 @@
     }
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
 .mostrar .modal {
     animation: modal .3s;
+}
+
+
+/* loader */
+
+#loader {
+    border: 1.6rem solid #F2E1F5;
+    border-radius: 50%;
+    border-top: 1.6rem solid #82498C;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
 }
 
 .RIGHT {

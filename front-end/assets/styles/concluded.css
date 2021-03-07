@@ -1,0 +1,19 @@
+.winner-text {
+    width: 50%;
+}
+
+.winner-image {
+    width: 50%;
+}
+
+.winner-image img {
+    width: 100%;
+}
+
+.title-winner {
+    color: #3A9759;
+}
+
+.winner-text {
+    color: rgb(87, 87, 87)
+}

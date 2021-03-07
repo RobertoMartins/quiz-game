@@ -17,7 +17,7 @@ public class Question {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer idQuestion;
 	
-	@Column(nullable=false)
+	@Column(nullable=false, length=512)
 	private String content;
 	
 	@JsonManagedReference
