@@ -2,11 +2,15 @@
     margin-bottom: 1.5rem;
 }
 
+.question {
+    width: 100%;
+}
+
 .option-container {
     display: flex;
     margin-bottom: 0.5rem;
-    width: 100%;
-    font-size: 1.8rem;
+    min-width: 100%;
+    font-size: 1.5rem;
     border: 0.1rem solid rgba(51, 8, 44, 0.25);
     background-color: white;
 }
@@ -29,10 +33,126 @@
     width: 100%;
 }
 
-.correct {
+.option-text {
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, .5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    background-color: #fff;
+    max-width: 50%;
+    border-radius: 4px;
+    padding: 1.2rem;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-content .modal-text {
+    width: 75%;
+}
+
+.modal-text h2 {
+    color: #BE6363;
+}
+
+.modal-content .modal-image {
+    width: 20%;
+}
+
+.modal-content .modal-image img {
+    width: 70%;
+}
+
+.modal-buttons {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.btn-again {
+    background-color: #82498C;
+    display: flex;
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.btn-again:hover {
+    background-color: #67396F;
+    color: #F8F8F8
+}
+
+.btn-close {
+    display: flex;
+    width: 100px;
+    height: 44px;
+    border: 1px solid #BE6363;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #BE6363;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.btn-close:hover {
+    background-color: #F4B0B0;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.RIGHT {
     background-color: #28a745;
 }
 
-.incorrect {
+.INCORRECT {
     background-color: #dc3545;
 }
